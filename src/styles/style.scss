@@ -1,4 +1,8 @@
-@import '/node_modules/normalize.css/normalize.css';
-
-@import 'modules/variables';
-@import 'modules/base'
+@import "/node_modules/purecss/build/pure-min.css";
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: dimgray;
+    text-align: center;
+    padding: 4rem;
+}
